@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information Form</title>
+</head>
+
+<body>
+<center>
+    <img src="/images/ff.png"
+    alt="Student Image"
+    width="1350"
+    height="150">
+</center>
+<form>
+<fieldset>
+    <legend>
+        <b>1. Personal Information</b>
+    </legend>
+
+    <table border="0" width="100%" cellpadding="8">
+
+        <tr>
+            <td width="50%">
+                <b>Full Name <font color="red">*</font></b><br>
+                <input type="text"
+                placeholder="Enter your full name"
+                size="50">
+            </td>
+
+            <td width="50%">
+                <b>Email Address <font color="red">*</font></b><br>
+                <input type="email"
+                placeholder="name@example.com"
+                size="50">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Phone Number <font color="red">*</font></b><br>
+                <input type="tel"
+                placeholder="+91 98765 43210"
+                size="50">
+            </td>
+
+            <td>
+                <b>Date of Birth <font color="red">*</font></b><br>
+                <input type="date" size="50">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Age</b><br>
+                <input type="number"
+                value="18"
+                min="1"
+                max="100"
+                size="50">
+            </td>
+
+            <td>
+                <b>Gender <font color="red">*</font></b><br>
+
+                <input type="radio" name="gender">
+                Female
+
+                &nbsp;&nbsp;
+
+                <input type="radio" name="gender">
+                Male
+
+                &nbsp;&nbsp;
+
+                <input type="radio" name="gender">
+                Other
+
+                &nbsp;&nbsp;
+
+                <input type="radio" name="gender">
+                Prefer not to say
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Profile Colour</b><br>
+                <input type="color" value="#5733e8">
+            </td>
+
+            <td>
+                <b>Personal Website / Portfolio</b><br>
+                <input type="url"
+                placeholder="https://yourportfolio.com"
+                size="50">
+            </td>
+        </tr>
+
+    </table>
+
+</fieldset>
+<br>
+
+<fieldset>
+    <legend>
+        <b>2. Academic Details</b>
+    </legend>
+
+    <table border="0" width="100%" cellpadding="8">
+
+        <tr>
+            <td width="50%">
+                <b>University / College <font color="red">*</font></b><br>
+                <input type="text" size="50">
+            </td>
+
+            <td width="50%">
+                <b>Registration Number <font color="red">*</font></b><br>
+                <input type="text" size="50">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Programme <font color="red">*</font></b><br>
+
+                <select>
+                    <option>Select programme</option>
+                    <option>BCA</option>
+                    <option>MCA</option>
+                    <option>B.Tech</option>
+                    <option>M.Tech</option>
+                    <option>BBA</option>
+                    <option>MBA</option>
+                </select>
+            </td>
+
+            <td>
+                <b>Semester <font color="red">*</font></b><br>
+
+                <select>
+                    <option>Select semester</option>
+                    <option>1st Semester</option>
+                    <option>2nd Semester</option>
+                    <option>3rd Semester</option>
+                    <option>4th Semester</option>
+                    <option>5th Semester</option>
+                    <option>6th Semester</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Current CGPA</b><br>
+                <input type="number"
+                value="0.00"
+                step="0.01"
+                min="0"
+                max="10"
+                size="50">
+            </td>
+
+            <td>
+                <b>Primary Skill</b><br>
+
+                <select>
+                    <option>Start typing a skill...</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>C++</option>
+                    <option>SQL</option>
+                    <option>React</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+
+                <b>Technical Interests</b><br><br>
+
+                <input type="checkbox">
+                Web Development
+
+                &nbsp;&nbsp;&nbsp;
+
+                <input type="checkbox">
+                AI / ML
+
+                &nbsp;&nbsp;&nbsp;
+
+                <input type="checkbox">
+                Cloud Computing
+
+                &nbsp;&nbsp;&nbsp;
+
+                <input type="checkbox">
+                Cybersecurity
+
+                &nbsp;&nbsp;&nbsp;
+
+                <input type="checkbox">
+                Data Science
+
+                &nbsp;&nbsp;&nbsp;
+
+                <input type="checkbox">
+                Mobile Apps
+
+            </td>
+        </tr>
+
+    </table>
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
