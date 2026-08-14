@@ -18,16 +18,6 @@ Example:
 
 
 ```html
-<table border="2" frame="box">
-    <tr>
-        <th>Name</th>
-        <th>Course</th>
-    </tr>
-    <tr>
-        <td>Anubhav</td>
-        <td>MCA</td>
-    </tr>
-</table>
 📏 Rules Attribute
 
 The following rules values are demonstrated:
@@ -38,18 +28,6 @@ cols
 all
 groups
 
-Example:
-
-<table border="2" rules="all">
-    <tr>
-        <th>Name</th>
-        <th>Course</th>
-    </tr>
-    <tr>
-        <td>Anubhav</td>
-        <td>MCA</td>
-    </tr>
-</table>
 📝 HTML Registration Form
 
 The form.html file contains a student registration form.
@@ -75,118 +53,6 @@ Reset button
 <fieldset>
 <legend>
 
-Example:
-
-<form>
-
-
-    <fieldset>
-
-
-        <legend>
-            <b><center>Registration Form</center></b>
-        </legend>
-
-
-        <table bgcolor="red">
-
-
-            <tr>
-                <td>
-                    <label for="fname">First Name:</label>
-                </td>
-
-
-                <td>
-                    <input type="text"
-                           id="fname"
-                           name="first_name"
-                           required>
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-                    <label for="email">Email ID:</label>
-                </td>
-
-
-                <td>
-                    <input type="email"
-                           id="email"
-                           name="email"
-                           required>
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-                    <label>Gender:</label>
-                </td>
-
-
-                <td>
-                    <input type="radio"
-                           name="gender"
-                           value="male"> Male
-
-
-                    <input type="radio"
-                           name="gender"
-                           value="female"> Female
-
-
-                    <input type="radio"
-                           name="gender"
-                           value="other"> Other
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-                    <label>Hobbies:</label>
-                </td>
-
-
-                <td>
-                    <input type="checkbox"
-                           name="hobbies"
-                           value="drawing"> Drawing
-
-
-                    <input type="checkbox"
-                           name="hobbies"
-                           value="singing"> Singing
-
-
-                    <input type="checkbox"
-                           name="hobbies"
-                           value="dancing"> Dancing
-                </td>
-            </tr>
-
-
-            <tr>
-                <td></td>
-
-
-                <td>
-                    <input type="submit" value="Submit">
-                    <input type="reset" value="Reset">
-                </td>
-            </tr>
-
-
-        </table>
-
-
-    </fieldset>
-
-
-</form>
 📋 HTML Lists
 
 The day1.html file demonstrates nested unordered lists.
@@ -211,78 +77,6 @@ City A
 Similarities
 Differences
 
-Example:
-
-<h1>Our City</h1>
-
-
-<ul>
-
-
-    <li>
-        Population
-
-
-        <ul>
-            <li>Size</li>
-            <li>Growth rate</li>
-        </ul>
-
-
-    </li>
-
-
-    <li>
-        Infrastructure
-
-
-        <ul>
-
-
-            <li>
-                Transportation
-
-
-                <ul>
-                    <li>Roads</li>
-                    <li>Public transport</li>
-                </ul>
-
-
-            </li>
-
-
-            <li>
-                Utilities
-
-
-                <ul>
-                    <li>Water</li>
-                    <li>Electricity</li>
-                </ul>
-
-
-            </li>
-
-
-        </ul>
-
-
-    </li>
-
-
-    <li>
-        Culture
-
-
-        <ul>
-            <li>Arts</li>
-            <li>Festivals</li>
-        </ul>
-    </li>
-
-
-</ul>
 🎓 UMS Login Page
 
 The umsloginpage.html file demonstrates a UMS-style login interface.
